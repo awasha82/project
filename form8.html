@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal&display=swap" rel="stylesheet">
+
+ 
+    <link rel="stylesheet" href="table1FF.css">
+          
+
+    <title>تسجيل البيانات </title>
+
+
+    <style>
+        body{
+            background-color:whitesmoke;
+            font-family: 'Almarai', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Tajawal', sans-serif;
+        }
+    </style>
+</head>
+
+<!--الصفحة بالعربي -->
+<body dir="rtl">
+
+
+<hr>
+<center>
+<br>
+<img src="images/Logo1.GIF" width="160">
+<br>
+
+<font center size="5.5" color="blue" >تقـديم طلـب تجنيـد </font>
+<hr>
+
+<fieldset>
+
+<legend><img src="images/gg1.gif" width="100px"></legend>
+
+<form method="post" action="script.PHP">
+
+        <!--<label>الرقم التلسلسلي </Llabel> <br>
+        <input type="text" name="no" id="on" /><br />
+-->
+<?php 
+                                        
+            $servername = "localhost";
+            $username = "root";
+            $password = "";
+            $dbname = "pro_db";
+                                        
+            $conn = mysqli_connect($servername,$username,$password,$dbname);
+
+            $show=mysqli_query($conn,"SELECT * FROM courses1")
+         ?>
+       
+        <fieldset  id='d1' >
+        <legend>   الدورات المتاحة   </legend>
+ <!--   <select id="select1"> -->
+        <select  id="select">
+        <?php 
+        while($row=mysqli_fetch_array($show)){
+        ?>
+        <option value="" ><?php echo $row['cou_na']; ?> </option>
+        <?php
+        }
+        ?>
+        </select>
+        
+        </fieldset>
+        <br>
+        
+        <label> الرقــم الوطنـي </label> 
+        <input type="number" name="Id_nu" id=" Id_nu" /><br /><br>
+
+        
+       <button>موافق</button>
+       <button type="reset">إفرغ الخانات</button>
+
+       <br>
+       <br>
+       
+       <p>
+        سيتـم الإتصـال بالمتقـدم لتحديـد موعـد المقابلـة الشخصيـة </p>
+      
+       <p> للمزيد من الاستفسارات الإتصال </p>
+
+       <p> على الرقم 000.0000000 </p>
+
+
+       <p>   
+        <a href="index.php">الرئيسية </a>
+        </h2>
+        </p>
+
+</center>
+</fieldset>
+</body>
+  
+<?php include "footer.php"?>
+
+
+</html>

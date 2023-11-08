@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+}
+
+/* Set the background color of body to tan */
+body {
+    background-color: tan;
+
+}
+
+header {
+    background-color:rgb(68, 68, 161);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color:white;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size:2.2em;
+}
+
+.logo_1 {
+    width: 50%;
+}
+
+.navigation a{
+    color:white;
+    text-decoration: none;
+    font-size:1.3em;
+    font-weight:500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    text-transform:uppercase;
+    font-weight: 600;
+    font-size:1.5em;    
+    
+}
+
+section{
+    padding:100px 200px;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    text-align:center;
+}
+
+.main h2{
+    color:rgb(68, 68, 161);
+    font-size: 2.5em;
+    text-transform:uppercase;
+    font-weight: 800; 
+    justify-content: center;
+    text-align:center;
+
+}
+    
+.main h3{
+    color:rgb(68, 68, 161);
+    font-size: 2em;
+    text-transform:uppercase;
+    font-weight: 800; 
+    text-align:center;
+}
+
+.main p{
+    color:rgb(68, 68, 161);
+    font-size: 1.5em;
+    text-transform:uppercase;
+    font-weight: 500; 
+    text-align:center;
+}
+/*
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ 
+#menu{
+    transition: 0.6s;
+}
+*/
+.sidemenu{
+position:fixed;
+top:100px;
+left:0px;
+height: 100%;
+width: 0px;
+background-color:rgb(68, 68, 161);
+z-index: 1;
+padding-top: 100px;
+overflow: hidden;
+transition:all 0.3s;
+
+}
+
+
+.sidemenu a {
+
+padding: 8px;
+font-size: 23px;
+color: black;
+display:block;
+}
+
+.sidemenu a:hover{
+    transition: 0.5S;
+    color: #fff;
+
+}
+
+.sidemenu .closebtn{
+color: white;
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 50px;
+margin-left: 32px;
+
+}
+
+#mainbox{
+    width: 35px;
+    border: none;
+    border-radius: 8px;
+    /* إشارة الماوس*/
+    cursor: pointer;
+    margin: 8px;
+    left:0px;
+    color: #fff;
+    font-size: 40px;
+    padding: 4px;
+    
+}
+#active {
+color: white;
+background-color: black;
+    
+}
+
+
+.main-btn{
+    color:#fff;
+    background-color:rgb(68, 68, 161);
+    text-decoration: none;
+    font-size:1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding:  0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin: bottom 40px;
+    transition: 0.7s ease;
+   
+}
+
+.main-btn:hover{
+    background-color:rgb(88, 88, 207);
+    transform: scale(1.1);
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:rgb(68, 68, 161);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+
+.content {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color:#fff;
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+    border-radius: 10px;
+    padding: 25px; 
+    margin: 15px;
+    transition: 0.7s ease;                                                                                                                                                                   
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+.icon {
+
+    color:rgb(68, 68, 161);
+    font-size: 2em;
+    text-align:center;
+}
+
+
+.info h3{
+
+    color:rgb(68, 68, 161);
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 10px;
+    text-align:center;
+
+}
+
+
+
+
+.projects.content {
+    margin-top: 30px;
+}
+
+.projects h2{
+
+    color:rgb(68, 68, 161);
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 10px;
+    text-align:center;
+
+}
+
+
+.projects h3{
+
+    color:rgb(68, 68, 161);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 10px;
+    text-align:center;
+
+}
+
+
+.project-card {
+    background-color:rgb(68, 68, 161);
+    border: 3px solid rgb(49, 49, 109);
+    min-height: 14em;
+    width: 25em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin:20px;
+    transition: 0.7s ease;
+
+}
+
+.project-card:hover  {
+    transform: scale(1.1);
+}
+
+
+.project-card:hover .project-image {
+    opacity: o.9;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info {
+    padding:1em; 
+    color: #fff;
+  
+}
+
+.project-category {
+    font-size: 3.8 em;   
+    color: #fff;
+    font-weight: 800;
+    
+}
+
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top:10px;
+    display: flex;
+    align-items:center;
+    text-align:center;
+}
+
+.projects.h3 {
+    color:rgb(170, 148, 73);
+    font-size: 1em;
+    font-weight: 700;
+    margin: 10px;
+    text-align:center;
+
+
+}
+
+.more-details {
+    text-decoration: none;
+    color:rgb(68, 68, 161);
+
+}
+
+.more-details:hover{
+    color:rgb(68, 68, 161);
+}
+
+
+/* أصغر شاشة */
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 767px) {
+    header {
+        background-color:rgb(190, 12, 182);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px;
+    
+    }
+
+    
+.logo{
+    text-decoration: none;
+    color:white;
+    text-transform:uppercase;
+    right:0px;
+    font-weight: 200;
+    font-size:1.2em;
+}
+
+
+
+.sidemenu{
+    position:fixed;
+    top:100px;
+    left:0px;
+    height: 100%;
+    width: 0px;
+    background-color:rgb(68, 68, 161);
+    z-index: 1;
+    padding-top: 100px;
+    overflow: hidden;
+    transition:all 0.3s;
+    
+    }
+    
+    
+    .sidemenu a {
+    
+    padding: 8px;
+    font-size: 18px;
+    color: black;
+    display:block;
+    }
+    
+    .sidemenu a:hover{
+        transition: 0.5S;
+        color: #fff;
+    
+    }
+    
+    .sidemenu .closebtn{
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 32px;
+    
+    }
+
+    
+.main h2{
+    color:rgb(68, 68, 161);
+    font-size: 1.2em;
+    text-transform:uppercase;
+    font-weight: 300; 
+    justify-content: center;
+    text-align:center;
+
+}
+    
+
+
+.main p{
+    color:rgb(68, 68, 161);
+    font-size: 0.9em;
+    text-transform:uppercase;
+    font-weight: 200; 
+    text-align:center;
+}
+
+.image {
+    width: 2%;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+    border-radius: 10px;
+    padding: 25px; 
+    margin: 15px;
+    transition: 0.7s ease;
+    position: relative;
+
+}
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (min-width: 768px) {
+    header {
+        background-color:rgb(255, 0, 0);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px;
+    
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        background-color:rgb(251, 255, 0);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px;
+    
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (min-width: 1200px) {
+    header {
+        background-color:rgb(68, 68, 161);
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 200px;
+    
+    }
+} 

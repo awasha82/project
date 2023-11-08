@@ -1,0 +1,71 @@
+
+body{
+    background-color:whitesmoke;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+  }
+  #mother{
+        width:100%;
+        font-size:20px;
+  }
+  
+  main{
+        float:left;
+        padding:5px;          
+  }
+
+input{
+        padding:4px;
+        border:2px solid black;
+        text-align:center;
+        font-size:15px;
+        font-family: 'Tajawal', sans-serif;
+}
+
+aside{
+        text-align:center;
+        width:200px;
+        float:right;
+        border:2px solid black;
+        padding:10px;
+        font-size:20px;
+        background-color:silver;
+        color:white;
+}
+
+#tbl{
+        width:890px;
+        font-size:18px;
+
+}
+#tbl th{
+        background-color:silver;
+}
+
+table {
+   
+    border: 5px solid  black;
+    border-collapse: collapse;
+
+}
+
+th,td {
+    border: 1px solid  rgb(179, 97, 97);
+    padding: .5rem,
+}
+
+caption {
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #fede12;
+    padding: .3rem0;
+    
+}
+
+thead {
+    background:rgb(19, 15, 15);
+    color: rgb(60, 145, 74)(233, 164, 164);
+
+}

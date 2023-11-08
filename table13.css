@@ -1,0 +1,240 @@
+
+body{
+    background-color:whitesmoke;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+  }
+
+#d2{
+    visibility: hidden;
+
+  }
+
+  #show{
+    width: 70%;
+    float:right;
+}
+
+#mother{
+   /* width: 15%; */
+    float:right; 
+    background-color:#fff;
+    width: 14em;
+        /* تضليل */
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+   
+    border-radius: 10px; 
+    
+    padding: 10px; 
+    margin: 10px;
+    border: 2px solid rgb(9, 9, 179);
+}
+
+#d1{
+       text-align:center;
+        width:180px;
+        float:left;
+        border:2px solid rgb(9, 9, 179);
+        padding:5px;
+        font-size:18px;
+        background-color:silver;
+        color:rgb(9, 9, 179);
+        border-radius: 20px;
+       box-shadow: 0 5px 15px rgba(1 1 1 / 55%);
+
+}
+
+#d2{
+        text-align:center;
+        width:180px;
+        float:left; 
+        border:2px solid rgb(9, 9, 179);
+        padding:5px;
+        font-size:18px;
+        background-color:silver;
+        color:rgb(9, 9, 179);
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(1 1 1 / 55%);
+
+}
+
+/*--------*/
+
+
+* {
+    padding:    0.6;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+
+#header{
+    
+    background-color: rgb(9, 9, 179);
+    color:white;
+    height:100px;
+    width:100%;
+    text-align: center; 
+    line-height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+
+    
+}
+
+/*-----------*/
+
+/* #mother{
+        width:100%;
+        font-size:20px;
+  }*/
+  
+  main{
+        width:79%;
+
+        float:right;
+   /*     border: 1px solid rgb(216, 20, 20); */
+        padding:5px;          
+  }
+
+input{
+        padding:4px;
+        border:2px solid rgb(9, 9, 179);
+        text-align:center;
+        font-size:14px;
+        font-family: 'Tajawal', sans-serif;
+       /* float: right;*/
+}
+ 
+/*جزاء إدارة الموقع */
+aside{
+        text-align:center;
+        width:200px;
+     /*   float:left; */
+        border:2px solid rgb(9, 9, 179);
+        padding:10px;
+        font-size:20px;
+        background-color:silver;
+        color:rgb(9, 9, 179);
+        border-radius: 10px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 55%);
+}
+
+h3{
+    color:rgb(9, 9, 179);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+    text-align:center;
+}
+
+#tbl{
+   width:100%;
+   font-size:15.3px;
+   color :rgb(8, 8, 8) ;   
+
+      
+}
+#tbl th{
+        background-color:silver;
+}
+
+table {
+   
+    border: 2px solid  rgb(9, 9, 179);
+    border-collapse: collapse;
+    width:75%;
+    text-align: center; 
+
+
+}
+
+th,td {
+    border: 1px solid  rgb(9, 9, 179);
+    padding: .5rem;
+    
+}
+
+tr:hover{
+
+    background-color: rgba(125, 116, 255, 0.479);
+    color: blue;
+    
+    font-size: 1em;
+    font-weight: 550;
+    margin: 10px;
+    text-align:center;
+
+
+}
+
+
+#Id_nu :hover{
+    background-color: rgb(235, 189, 64);
+    color: blue;
+    
+    font-size: 1em;
+    font-weight: 650;
+    margin: 10px;
+    text-align:center;
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(9, 9, 179);
+   /* background: #fede12; */
+    padding: .3rem0;
+    
+}
+
+thead {
+    background:rgb(19, 15, 15);
+    color: #fff;
+
+}
+
+tbody tr:nth-child(even){
+    background: #ddd;
+
+}
+/*
+#show1 {
+    background-color:rgb(204, 33, 33);
+    width: 55em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+    border-radius: 10px;
+    padding: 85px; 
+    margin: 15px;
+    transition: 0.7s ease;                                                                                                                                                               
+
+}
+
+.div{
+    background-color:#fff;
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+   /* border-radius: 10px; 
+    padding: 25px; 
+    margin: 15px;
+    border: 1px solid  black;                                                                                                                                                              
+}*/
+
+.main-btn2{
+    color:#fff;
+    background-color:rgb(10, 10, 180);
+    text-decoration: none;
+    font-size:0.9em;
+    font-weight: 900;
+    display: inline-block;
+    padding:  0.8375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin: bottom 40px;
+    transition: 0.7s ease;
+   
+  }
+  
+
+

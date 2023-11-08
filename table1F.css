@@ -1,0 +1,166 @@
+
+body{
+    background-color:whitesmoke;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+  }
+
+
+  #show{
+    width: 70%;
+    float:right;
+}
+
+#mother{
+    width: 25%;
+    float:right; 
+    background-color:#fff;
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+   /* border-radius: 10px; */
+    padding: 25px; 
+    margin: 15px;
+    border: 1px solid  black;  
+}
+
+
+/*--------*/
+
+
+* {
+    padding:    0.6;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+
+#header{
+    
+    background-color: rgb(9, 9, 179);
+    color:white;
+    height:100px;
+    width:100%;
+    text-align: center; 
+    line-height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+
+    
+}
+
+  main{
+        width:79%;
+
+        float:right;
+   /*     border: 1px solid rgb(216, 20, 20); */
+        padding:5px;          
+  }
+
+input{
+        padding:5px;
+        border:2px solid rgb(9, 9, 179);
+        text-align:center;
+        font-size:14px;
+        font-family: 'Tajawal', sans-serif;
+        color:rgb(9, 9, 179);
+
+       /* float: right;*/
+}
+
+option{
+    padding:5px;
+    border:2px solid rgb(9, 9, 179);
+    text-align:center;
+    font-size:14px;
+    font-family: 'Tajawal', sans-serif;
+    color:rgb(9, 9, 179);
+
+}
+ 
+/*جزاء إدارة الموقع */
+aside{
+        text-align:center;
+        width:200px;
+     /*   float:left; */
+        border:2px solid rgb(9, 9, 179);
+        padding:10px;
+        font-size:20px;
+        background-color:silver;
+        color:rgb(9, 9, 179);
+        border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 55%);
+}
+
+h3{
+    color:rgb(9, 9, 179);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+    text-align:center;
+}
+
+#tbl{
+   width:100%;
+   font-size:16.5px;
+   color :rgb(8, 8, 8)    
+
+      
+}
+#tbl th{
+        background-color:silver;
+}
+
+table {
+   
+    border: 2px solid  rgb(9, 9, 179);
+    border-collapse: collapse;
+    width:85%;
+    text-align: center; 
+    font-size:14px;
+
+
+}
+
+th,td {
+    border: 1px solid  rgb(9, 9, 179);
+    padding: .5rem;
+
+    
+}
+
+tr:hover{
+
+    background-color: aquamarine;
+    color: blue;
+    
+    font-size: 1em;
+    font-weight: 650;
+    margin: 10px;
+    text-align:center;
+
+
+}
+
+caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(9, 9, 179);
+   /* background: #fede12; */
+    padding: .3rem0;
+    
+}
+
+thead {
+    background:rgb(19, 15, 15);
+    color: #fff;
+
+}
+
+tbody tr:nth-child(even){
+    background: #ddd;
+
+}
+
+
+
